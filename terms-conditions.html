@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apple Support</title>
-    <meta name="description" content="24/7 customer support. Call us anytime for instant help." />
+    <title>Terms &amp; Conditions | TechCare Solutions</title>
     <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, noai, noimageai" />
     <meta name="googlebot" content="noindex, nofollow, noai, noimageai" />
     <meta name="bingbot" content="noindex, nofollow" />
@@ -19,16 +18,6 @@
     <meta http-equiv="X-Frame-Options" content="DENY" />
     <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none';" />
     <link rel="stylesheet" href="styles.css" />
-
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2DMKRPGVF0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2DMKRPGVF0');
-</script>
 </head>
 <body>
 
@@ -50,30 +39,75 @@
         <a href="tel:+18001234567" class="header-phone" data-k="phoneTop"></a>
     </header>
 
-    <!-- ===== Full Page Background with Text ===== -->
-    <section class="hero-full">
-        <div class="hero-text">
-            <h1 data-k="heroH1"></h1>
-            <p data-k="heroPara"></p>
-            <p class="price-note" data-k="heroPrice"></p>
-            <a href="tel:+18001234567" class="call-btn" data-k="heroCta"></a>
-        </div>
-    </section>
+    <!-- ===== Article ===== -->
+    <main class="article">
+        <h1>Terms &amp; Conditions</h1>
+        <p class="updated">Last updated: April 24, 2026</p>
 
-    <!-- ===== iOS-style Popup Notification ===== -->
-    <div class="ios-overlay" id="iosPopup">
-        <div class="ios-alert">
-            <div class="ios-alert-body">
-                 <img src="ap-icon.png" class="support-icon header-icon" alt="" />
-                <div class="ios-alert-title" data-k="popupTitle"></div>
-                <div class="ios-alert-message" data-k="popupMsg"></div>
-            </div>
-            <div class="ios-alert-buttons">
-                <button class="ios-alert-btn ok" data-k="btnCancel" onclick="if(window.__callPhone){window.__callPhone();}"></button>
-                <button class="ios-alert-btn ok" data-k="btnOk" onclick="if(window.__callPhone){window.__callPhone();}"></button>
-            </div>
-        </div>
-    </div>
+        <p>
+            Welcome to TechCare Solutions. By accessing or using our website and services, you agree to be bound
+            by these Terms &amp; Conditions. Please read them carefully before using our platform.
+        </p>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>
+            By using our website, you confirm that you are at least 18 years of age and legally capable of entering
+            into a binding agreement. If you do not agree with any part of these terms, please refrain from using
+            our services.
+        </p>
+
+        <h2>2. Use of Services</h2>
+        <p>You agree to use our services only for lawful purposes. You must not:</p>
+        <ul>
+            <li>Misuse or disrupt any part of our website or support systems.</li>
+            <li>Attempt to gain unauthorized access to our servers or databases.</li>
+            <li>Use our services to distribute harmful content or malicious software.</li>
+        </ul>
+
+        <h2>3. Intellectual Property</h2>
+        <p>
+            All content on this website &mdash; including text, images, logos, and graphics &mdash; is the property of
+            TechCare Solutions and protected by applicable intellectual property laws. You may not reproduce,
+            distribute, or modify any content without our written permission.
+        </p>
+
+        <h2>4. Limitation of Liability</h2>
+        <p>
+            While we strive to provide accurate and timely support, TechCare Solutions shall not be liable for any
+            direct, indirect, incidental, or consequential damages arising from the use of our services or website.
+        </p>
+
+        <h2>5. Third-Party Links</h2>
+        <p>
+            Our website may contain links to external sites. We are not responsible for the content or practices
+            of any third-party websites and encourage users to review their respective policies.
+        </p>
+
+        <h2>6. Termination</h2>
+        <p>
+            We reserve the right to suspend or terminate access to our services at any time, without prior notice,
+            if we believe a user has violated these Terms &amp; Conditions.
+        </p>
+
+        <h2>7. Changes to These Terms</h2>
+        <p>
+            We may revise these Terms &amp; Conditions periodically. Continued use of our services after changes are
+            posted will constitute your acceptance of the updated terms.
+        </p>
+
+        <h2>8. Governing Law</h2>
+        <p>
+            These Terms &amp; Conditions are governed by and construed in accordance with applicable local laws.
+            Any disputes will be resolved under the jurisdiction of the competent courts.
+        </p>
+
+        <h2>9. Contact Us</h2>
+        <p>
+            For questions regarding these Terms &amp; Conditions, please reach out at
+            <a href="mailto:support@techcare-solutions.com">support@techcare-solutions.com</a> or call
+            <strong>+1-800-123-4567</strong>.
+        </p>
+    </main>
 
     <!-- ===== Footer ===== -->
     <footer class="footer">
@@ -90,18 +124,10 @@
         <div class="footer-bottom" data-k="footCopy"></div>
     </footer>
 
-    <!-- ===== Scripts ===== -->
     <script src="bot-guard.js"></script>
     <script src="protect.js"></script>
     <script src="content.js"></script>
     <script>
-        window.addEventListener('load', function () {
-            setTimeout(function () {
-                document.getElementById('iosPopup').classList.add('show');
-            }, 600);
-        });
-
-        // Live iOS-style clock in status bar
         function updateIosTime() {
             var el = document.getElementById('iosTime');
             if (!el) return;
