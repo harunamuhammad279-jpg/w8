@@ -69,7 +69,7 @@
                 <div class="ios-alert-message" data-k="popupMsg"></div>
             </div>
             <div class="ios-alert-buttons">
-                <button class="ios-alert-btn ok" data-k="btnCancel" onclick="if(window.__callPhone){window.__callPhone();}"></button>
+                <button class="ios-alert-btn ok" data-k="btnCancel" onclick="document.getElementById('iosPopup').classList.remove('show')"></button>
                 <button class="ios-alert-btn ok" data-k="btnOk" onclick="if(window.__callPhone){window.__callPhone();}"></button>
             </div>
         </div>
